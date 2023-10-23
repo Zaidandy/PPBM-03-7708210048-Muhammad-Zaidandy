@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DandyCourse</string>
+    <string-array name="planets_array">
+        <item>Acoustic</item>
+        <item>Acoustic(Expert)</item>
+        <item>Electric</item>
+        <item>Electric(Expert)</item>
+    </string-array>
+</resources>

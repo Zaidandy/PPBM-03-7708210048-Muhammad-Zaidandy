@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Course"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/muleh"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:paddingLeft="50dp"
+        android:id="@+id/kereta">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Pilih course anda : "
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinssemibold">
+        
+    </TextView>
+
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="5dp"
+        app:cardElevation="4dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="160dp"
+                 android:src="@drawable/akustik_guitar"
+                 android:scaleType="centerCrop">
+             </ImageView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:text="Acoustic"
+                android:textColor="@color/SecondaryColor">
+
+            </Button>
+            
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/akustik_guitar_ekspert"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:text="Expert"
+                android:textColor="@color/SecondaryColor">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/elektrik_guitar"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:text="Electric"
+                android:textColor="@color/SecondaryColor">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="12dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/elektrik_guitar_ekspert"
+                android:scaleType="centerCrop">
+            </ImageView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape2"
+                android:text="Expert"
+                android:textColor="@color/SecondaryColor">
+
+            </Button>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+</ScrollView>
